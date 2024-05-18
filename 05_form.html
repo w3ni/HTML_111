@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input[type=text],
+        input[type=password],
+        input[type=email]{
+            width: 300px;
+            padding: 12px 20px;
+            margin: 10px 5px 10px 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 15px;
+            border-radius: 3px;
+        }
+
+        input[type=date]{
+            font-size: 20px;
+            margin: 5px 5px 5px 10px;
+        }
+
+        input:hover{
+            border: 2px solid black;
+            color: black;
+        }
+
+/* 
+        input[type=button]{
+            display: inline;
+            font-size: 15px;
+            margin: 10px 5px 5px 10px;
+        } */
+
+
+
+        .form1 label {
+            font-weight: bold;
+            color: white;
+            padding: 5px;
+            margin: 5px;
+            text-shadow: 1px 1px 5px black;
+            font-size: 20px;
+            
+          
+        }
+        
+        .container{
+            border: 2px solid black;
+            background-color:skyblue;
+            border-radius: 10px;
+            width: auto;
+            height: 800px;
+            margin: 10px;
+            padding: 10px;
+            /* position: relative;
+            left: 350px; */
+
+        }
+
+        .container h2{
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Fill Your information to login in our organization</h2>
+
+    <form action="" class="form1">
+    <div>
+        <label for="name">Student Name :</label>
+        <input type="text" name="name" placeholder="Enter Student Name">
+    </div>
+
+    <div>
+        <label for="fathername">Father Name :</label> 
+        <input type="text" name="fathername" placeholder="Enter Father Name">
+    </div>
+
+    <div>
+        <label for="mothername">Mother Name :</label>
+        <input type="text" name="mothername" placeholder="Enter Mother Name">
+    </div>
+
+    <div>
+        <label for="email">Enter Your Email :</label>
+        <input type="email" placeholder="Enter Your Email" name="email">
+
+    </div>
+
+    <div>
+        <label for="pass">Enter Your Password :</label>
+        <input type="password" name="pass" id="pass" placeholder="Confirm Your Password">
+    </div>
+    <div>
+        <label for="cpass">Confirm Your Password :</label>
+        <input type="password" name="cpass" id="cpass" placeholder="Confirm Your Password">
+
+    </div>
+        <label for="dob">Enter Your Date Of Birth : </label>
+        <input type="date" name="dob" placeholder="dob">
+    </div>
+
+    <div>
+        <button>Submit</button>
+    </div>
+
+
+
+   
+     </form>
+
+    </div>
+
+</body>
+
+</html>
